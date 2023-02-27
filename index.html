@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,500&family=Open+Sans&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/intlTelInput.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <img src="images/aid_logo.svg" alt="" srcset="">
+                </div>
+                <nav class="header__nav">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#howitworks" class="menu__link fs-regular">How it works?</a></li>
+                        <li class="menu__item"><a href="#aboutus" class="menu__link fs-regular">About us</a></li>
+                        <li class="menu__item"><a href="#benefits" class="menu__link fs-regular">Benefits</a></li>
+                        <li class="menu__item"><a href="#capabilities" class="menu__link fs-regular">Capabilities</a></li>
+                        <li class="menu__item"><a href="#team" class="menu__link fs-regular">Team</a></li>
+                    </ul>
+
+                </nav>
+                <div class="header__button">
+                    <button href="" class="login__button">
+                        <a class="login__link fs-regular" href="#contacts">Contact us</a>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="description__container">
+                <div class="text__block">
+                    <p class="text__main">Artificial intelligence</p>
+                    <p class="text__main mask_early_pathology_detection">for early pathology detection</p>
+                    <p class="sub__text fs-regular">Cartel collusions do not allow a situation in which the actions of
+                        opposition
+                        representatives form a global economic network and at the same time are objectively
+                        considered
+                        by the relevant authorities.</p>
+                </div>
+                <div class="description__buttons__block">
+                    <button class="try__button">
+                        <a class="try__link fs-regular" href="">Login</a>
+                    </button>
+                    <!-- <button class="manual__button">
+                        <a class="manual__link fs-regular" href="">Check manuals <div class="manual_link_icon"><svg
+                                    width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path class="manual_link_icon_path"
+                                        d="M12 20.5L11.168 21.0548C11.3535 21.333 11.6657 21.5001 12.0001 21.5C12.3344 21.5 12.6466 21.3329 12.8321 21.0547L12 20.5ZM12.575 19.6375L11.743 19.0828L11.743 19.0828L12.575 19.6375ZM20.8911 6.04602L20.0001 6.50001V6.50001L20.8911 6.04602ZM20.4539 5.60899L20.9079 4.71799L20.4539 5.60899ZM20.4539 17.391L19.9999 16.5L20.4539 17.391ZM20.8911 16.954L20.0001 16.5L20.8911 16.954ZM13.7008 18.1824L14.3358 18.9549L13.7008 18.1824ZM14.7339 17.6295L15.0245 18.5863H15.0245L14.7339 17.6295ZM12.327 7.13806L11.436 6.68407L12.327 7.13806ZM13.6382 5.82698L13.1842 4.93597L13.6382 5.82698ZM11.4248 19.6375L10.5928 20.1922L10.5928 20.1922L11.4248 19.6375ZM3.10899 6.04602L4 6.50001L3.10899 6.04602ZM3.5459 5.60899L3.99989 6.5L3.5459 5.60899ZM3.5459 17.391L3.99989 16.5H3.99989L3.5459 17.391ZM3.10899 16.954L2.21799 17.408H2.21799L3.10899 16.954ZM10.2993 18.1824L10.9343 17.4098L10.2993 18.1824ZM9.26624 17.6295L8.97565 18.5863H8.97565L9.26624 17.6295ZM11.6729 7.13806L10.7818 7.59205L11.6729 7.13806ZM10.3622 5.82698L10.8162 4.93597V4.93597L10.3622 5.82698ZM11 10.3V20.5H13V10.3H11ZM12.8321 21.0547L13.4071 20.1921L11.743 19.0828L11.1679 19.9454L12.8321 21.0547ZM16.5688 18.5H19.4V16.5H16.5688V18.5ZM22 15.9V7.09998H20V15.9H22ZM19.3998 4.5H16.7998V6.5H19.3998V4.5ZM22 7.09998C22 6.83655 22.0008 6.57876 21.9831 6.36192C21.9645 6.13337 21.9205 5.86356 21.7821 5.59203L20.0001 6.50001C19.9708 6.4424 19.9812 6.41953 19.9897 6.52447C19.9992 6.64111 20 6.80335 20 7.09998H22ZM19.3998 6.5C19.6963 6.5 19.8586 6.50078 19.9752 6.5103C20.0802 6.51888 20.0574 6.52932 19.9999 6.5L20.9079 4.71799C20.6364 4.57968 20.3667 4.53562 20.1381 4.51694C19.9211 4.49922 19.6633 4.5 19.3998 4.5V6.5ZM21.7821 5.59203C21.5902 5.2153 21.2838 4.90953 20.9079 4.71799L19.9999 6.5L20.0001 6.50001L21.7821 5.59203ZM19.4 18.5C19.6635 18.5 19.9213 18.5008 20.1382 18.483C20.3668 18.4644 20.6365 18.4203 20.9079 18.282L19.9999 16.5C20.0574 16.4707 20.0801 16.4811 19.9753 16.4897C19.8587 16.4992 19.6965 16.5 19.4 16.5V18.5ZM20 15.9C20 16.1966 19.9993 16.3589 19.9897 16.4755C19.9812 16.5805 19.9707 16.5577 20.0001 16.5L21.7821 17.408C21.9205 17.1365 21.9645 16.8666 21.9831 16.6381C22.0008 16.4212 22 16.1634 22 15.9H20ZM20.9079 18.282C21.2837 18.0905 21.5901 17.7848 21.7821 17.408L20.0001 16.5L19.9999 16.5L20.9079 18.282ZM13.4071 20.1922C13.9625 19.3591 14.1334 19.1213 14.3358 18.9549L13.0659 17.4098C12.5799 17.8092 12.2296 18.3529 11.743 19.0828L13.4071 20.1922ZM16.5688 16.5C15.6919 16.5 15.0452 16.4898 14.4433 16.6726L15.0245 18.5863C15.2751 18.5102 15.5674 18.5 16.5688 18.5V16.5ZM14.3358 18.9549C14.539 18.7879 14.773 18.6627 15.0245 18.5863L14.4433 16.6726C13.9401 16.8254 13.4721 17.076 13.0659 17.4098L14.3358 18.9549ZM13 10.3C13 9.44347 13.0008 8.86117 13.0376 8.41108C13.0734 7.97266 13.1383 7.74845 13.218 7.59205L11.436 6.68407C11.1887 7.16941 11.0901 7.68612 11.0442 8.24822C10.9992 8.79864 11 9.47647 11 10.3H13ZM16.7998 4.5C15.9762 4.5 15.2985 4.49922 14.7481 4.54419C14.1861 4.59012 13.6695 4.6887 13.1842 4.93597L14.0922 6.71799C14.2486 6.63828 14.4727 6.57337 14.911 6.53755C15.361 6.50078 15.9432 6.5 16.7998 6.5V4.5ZM13.218 7.59205C13.4097 7.21581 13.7158 6.90978 14.0922 6.71799L13.1842 4.93597C12.4316 5.31942 11.8195 5.93134 11.436 6.68407L13.218 7.59205ZM12.832 19.9453L12.2568 19.0827L10.5928 20.1922L11.168 21.0548L12.832 19.9453ZM7.43122 16.5H4.6001V18.5H7.43122V16.5ZM4 15.9V7.09998H2V15.9H4ZM4.6001 6.5H7.2001V4.5H4.6001V6.5ZM4 7.09998C4 6.80345 4.00078 6.6412 4.0103 6.52463C4.01887 6.41974 4.0293 6.44251 4 6.50001L2.21799 5.59203C2.07969 5.86344 2.03562 6.13316 2.01695 6.36176C1.99922 6.57867 2 6.83645 2 7.09998H4ZM4.6001 4.5C4.33656 4.5 4.07874 4.49922 3.86179 4.51694C3.63322 4.53561 3.36339 4.57966 3.09191 4.71799L3.99989 6.5C3.94232 6.52933 3.91956 6.51889 4.0246 6.51031C4.14126 6.50078 4.30358 6.5 4.6001 6.5V4.5ZM4 6.50001L3.99989 6.5L3.09191 4.71799C2.71533 4.90987 2.4096 5.21596 2.21799 5.59203L4 6.50001ZM4.6001 16.5C4.30359 16.5 4.14127 16.4992 4.02462 16.4897C3.91959 16.4811 3.94233 16.4707 3.99989 16.5L3.09191 18.282C3.36337 18.4203 3.63319 18.4644 3.86177 18.483C4.07873 18.5008 4.33655 18.5 4.6001 18.5V16.5ZM2 15.9C2 16.1635 1.99922 16.4213 2.01694 16.6382C2.03562 16.8668 2.07968 17.1366 2.21799 17.408L4 16.5C4.02931 16.5576 4.01888 16.5803 4.0103 16.4754C4.00078 16.3588 4 16.1965 4 15.9H2ZM3.99989 16.5L4 16.5L2.21799 17.408C2.40966 17.7842 2.71543 18.0902 3.09191 18.282L3.99989 16.5ZM12.2569 19.0828C11.7705 18.3533 11.4203 17.8093 10.9343 17.4098L9.66436 18.9549C9.86667 19.1212 10.0371 19.3587 10.5928 20.1922L12.2569 19.0828ZM7.43122 18.5C8.43269 18.5 8.72502 18.5102 8.97565 18.5863L9.55682 16.6726C8.95493 16.4898 8.30817 16.5 7.43122 16.5V18.5ZM10.9343 17.4098C10.5281 17.076 10.06 16.8254 9.55682 16.6726L8.97565 18.5863C9.22718 18.6627 9.4612 18.7879 9.66436 18.9549L10.9343 17.4098ZM13 10.3C13 9.47642 13.0007 8.79859 12.9557 8.24813C12.9097 7.686 12.8111 7.16935 12.5639 6.68407L10.7818 7.59205C10.8616 7.74851 10.9265 7.97277 10.9624 8.41116C10.9992 8.86122 11 9.44352 11 10.3H13ZM7.2001 6.5C8.05668 6.5 8.639 6.50078 9.08911 6.53755C9.52757 6.57337 9.75179 6.6383 9.90818 6.71799L10.8162 4.93597C10.3308 4.68868 9.81408 4.59012 9.25197 4.54419C8.70152 4.49922 8.02368 4.5 7.2001 4.5V6.5ZM12.5639 6.68407C12.1805 5.9317 11.5691 5.31961 10.8162 4.93597L9.90818 6.71799C10.2842 6.90959 10.59 7.21545 10.7818 7.59205L12.5639 6.68407Z"
+                                        fill="#008981" />
+                                </svg></div></a>
+                    </button> -->
+                </div>
+            </div>
+            <div class="background__graphic__element">
+            </div>
+            <!-- <div class="background__blur__1"> <object data="images/Ellipse 40.svg" type="image/svg+xml"></object> </div>
+            <div class="background__blur__2"><object data="images/Ellipse 39.svg" type="image/svg+xml"></object></div> -->
+            <div class="separation__block" id="howitworks">
+                <div class="separation__heading">How it works?</div>
+                <p class="separation__main__text"> <span class="mask_try_to_use">Try to use</span> our product right now
+                </p>
+                <p class="separation__subtext">You can choose the pathology of interest and study the functionality <br>
+                    our product right now</p>
+            </div>
+            <div class="viewer__container">
+                <div class="choose__module">
+
+                    <div class="accuracy__description">
+                        <div class="accuracy__description__item">
+                            <div class="small__circle"></div>
+                            <p class="accuracy_title">Accuracy</p>
+
+                        </div>
+                        <div class="accuracy__description__item">
+                            <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.43192 0.732942C6.81682 0.0662751 7.77908 0.066274 8.16398 0.732941L14.2458 11.267C14.6307 11.9337 14.1496 12.767 13.3798 12.767H1.21609C0.446291 12.767 -0.0348354 11.9337 0.350065 11.267L6.43192 0.732942Z"
+                                    fill="#008981" />
+                            </svg>
+                            <p class="accuracy_title">Specificity</p>
+                        </div>
+                        <div class="accuracy__description__item">
+                            <div class="small__square"></div>
+                            <p class="accuracy_title">Specificity</p>
+
+                        </div>
+                    </div>
+                    <div class="module_list">
+                        <div class="module_item">
+                            <p class="module_name">Covid-19</p>
+                            <div class="module_accuracy">
+                                <div class="module_accuracy_item">
+                                    <div class="small__circle"></div>
+                                    <p class="accuracy_title">94%</p>
+                                </div>
+                                <div class="module_accuracy_item">
+                                    <svg class="small_triangle" width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.43192 0.732942C6.81682 0.0662751 7.77908 0.066274 8.16398 0.732941L14.2458 11.267C14.6307 11.9337 14.1496 12.767 13.3798 12.767H1.21609C0.446291 12.767 -0.0348354 11.9337 0.350065 11.267L6.43192 0.732942Z" />
+                                    </svg>
+                                    <p class="accuracy_title">100%</p>
+
+                                </div>
+                                <div class="module_accuracy_item">
+                                    <div class="small__square"></div>
+                                    <p class="accuracy_title">30%</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module_item">
+                            <p class="module_name">Covid-19</p>
+                            <div class="module_accuracy">
+                                <div class="module_accuracy_item">
+                                    <div class="small__circle"></div>
+                                    <p class="accuracy_title">94%</p>
+                                </div>
+                                <div class="module_accuracy_item">
+                                    <svg class="small_triangle" width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.43192 0.732942C6.81682 0.0662751 7.77908 0.066274 8.16398 0.732941L14.2458 11.267C14.6307 11.9337 14.1496 12.767 13.3798 12.767H1.21609C0.446291 12.767 -0.0348354 11.9337 0.350065 11.267L6.43192 0.732942Z" />
+                                    </svg>
+                                    <p class="accuracy_title">100%</p>
+
+                                </div>
+                                <div class="module_accuracy_item">
+                                    <div class="small__square"></div>
+                                    <p class="accuracy_title">30%</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module_item">
+                            <p class="module_name">Covid-19</p>
+                            <div class="module_accuracy">
+                                <div class="module_accuracy_item">
+                                    <div class="small__circle"></div>
+                                    <p class="accuracy_title">94%</p>
+                                </div>
+                                <div class="module_accuracy_item">
+                                    <svg class="small_triangle" width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.43192 0.732942C6.81682 0.0662751 7.77908 0.066274 8.16398 0.732941L14.2458 11.267C14.6307 11.9337 14.1496 12.767 13.3798 12.767H1.21609C0.446291 12.767 -0.0348354 11.9337 0.350065 11.267L6.43192 0.732942Z" />
+                                    </svg>
+                                    <p class="accuracy_title">100%</p>
+
+                                </div>
+                                <div class="module_accuracy_item">
+                                    <div class="small__square"></div>
+                                    <p class="accuracy_title">30%</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module_item">
+                            <p class="module_name">Covid-19</p>
+                            <div class="module_accuracy">
+                                <div class="module_accuracy_item">
+                                    <div class="small__circle"></div>
+                                    <p class="accuracy_title">94%</p>
+                                </div>
+                                <div class="module_accuracy_item">
+                                    <svg class="small_triangle" width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.43192 0.732942C6.81682 0.0662751 7.77908 0.066274 8.16398 0.732941L14.2458 11.267C14.6307 11.9337 14.1496 12.767 13.3798 12.767H1.21609C0.446291 12.767 -0.0348354 11.9337 0.350065 11.267L6.43192 0.732942Z" />
+                                    </svg>
+                                    <p class="accuracy_title">100%</p>
+
+                                </div>
+                                <div class="module_accuracy_item">
+                                    <div class="small__square"></div>
+                                    <p class="accuracy_title">30%</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module_item">
+                            <p class="module_name">Covid-19</p>
+                            <div class="module_accuracy">
+                                <div class="module_accuracy_item">
+                                    <div class="small__circle"></div>
+                                    <p class="accuracy_title">94%</p>
+                                </div>
+                                <div class="module_accuracy_item">
+                                    <svg class="small_triangle" width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.43192 0.732942C6.81682 0.0662751 7.77908 0.066274 8.16398 0.732941L14.2458 11.267C14.6307 11.9337 14.1496 12.767 13.3798 12.767H1.21609C0.446291 12.767 -0.0348354 11.9337 0.350065 11.267L6.43192 0.732942Z" />
+                                    </svg>
+                                    <p class="accuracy_title">100%</p>
+
+                                </div>
+                                <div class="module_accuracy_item">
+                                    <div class="small__square"></div>
+                                    <p class="accuracy_title">30%</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="viewer">
+                    <img src="aorta/0.jpg" alt="" id="images" >
+                    <input type="range" min="0" max="16" value="0" id="imageSlider" oninput="getImage(this.value)">
+                </div>
+            </div>
+            <div class="about_us__block" id="aboutus">
+                <div class="separation__block">
+                    <div class="separation__heading">About us</div>
+                    <p class="separation__main__text"> AIDiagnostic — <span class="mask_unique_ai_framework">unique AI
+                            Framework</span> </p>
+                    <p class="separation__subtext about_us__subtext">Созданная молодой и амбициозной командой
+                        профессионалов, основанная на самых современных разработках в сфере ИИ, валидированная в
+                        профильных медицинских учреждениях - платформа AI Diagnostic дает врачу мощное и удобное
+                        средство выявления патологий на КТ и МРТ снимках.</p>
+                    <button class="about_us__button">
+                        <a class="about_us__link fs-regular" href="">Solutions<img src="images/Code.svg" alt=""></a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="ourgoal__container">
+                <div class="separation__block">
+                    <p class="ourgoal__main__text"> Our goal — is to make a smart, fast and reliable assistant</p>
+                    <p class="ourgoal__subtext">We are sure that in the near future AI will become an indispensable
+                        assistant to a radiologist, as self-evident as an X-ray machine once was.</p>
+                    <button class="ourgoal__button">
+                        <a class="ourgoal__link" href="">Become a partner</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="separation__block" id="benefits">
+                <div class="separation__heading">Benefits</div>
+                <p class="separation__main__text"> AI Diagnostic services are <span class="mask_already_helping">already
+                        helping</span></p>
+            </div>
+
+            <div class="benefit_cards__container">
+                <div class="benefit_card">
+                    <img src="images/lock_icon.svg" alt="">
+                    <p class="benefit_card_text_main">Increase speed of study processing</p>
+                    <p class="benefit_card_subtext fs-regular">There is no need to view hundreds of slices - the service
+                        will
+                        indicate the localization of pathologies</p>
+                </div>
+                <div class="benefit_card">
+                    <img src="images/robo_human_face.svg" alt="">
+                    <p class="benefit_card_text_main">Reduce human-error <br>rate</p>
+                    <p class="benefit_card_subtext fs-regular">Now the radiologist has the right to get tired and skip
+                        pathology.
+                        The service will point to it</p>
+                </div>
+                <div class="benefit_card">
+                    <img src="images/plaster_image.svg" alt="">
+                    <p class="benefit_card_text_main">Find small-sized abnormalities</p>
+                    <p class="benefit_card_subtext fs-regular">Even an attentive doctor may miss the formation of a
+                        small size. The
+                        service sees everything, it won't miss it</p>
+                </div>
+                <div class="benefit_card">
+                    <img src="images/coffee.svg" alt="">
+                    <p class="benefit_card_text_main">Relieve radiologists of routine work</p>
+                    <p class="benefit_card_subtext fs-regular">It is difficult for a doctor to calculate the volume of
+                        the lesion.
+                        Service is a computer, it's easy for him</p>
+                </div>
+                <div class="benefit_card">
+                    <img src="images/faces.svg">
+                    <p class="benefit_card_text_main">Make mass screening possible</p>
+                    <p class="benefit_card_subtext fs-regular">Where can I get an army of doctors <br>for seasonal or
+                        emergency
+                        screening? <br>Use our services</p>
+                </div>
+                <div class="benefit_card">
+                    <img src="images/piggy_bank.svg" alt="">
+                    <p class="benefit_card_text_main">Reduce operating <br>costs</p>
+                    <p class="benefit_card_subtext fs-regular">Speeding up research processing will help make all
+                        processes faster
+                        <br>and cheaper</p>
+                </div>
+            </div>
+            <div class="capabilities__block" id="capabilities">
+                <div class="capabilities__container">
+                    <div class="separation__block">
+                        <div class="separation__heading">Capabilities</div>
+                        <p class="separation__main__text"> Ai Diagnostic is able to work with different modalities and
+                            <span class="mask_different_pathologies">more than 10 different pathologies</span></p>
+                        <p class="separation__subtext">A significant expansion of the product line is planned for
+                            2022-2023</p>
+                    </div>
+                    <div class="capabilities__cards">
+                        <div class="capabilities__card">
+                            <div class="capability_illustration">
+                                <img src="images/doc.svg" alt="">
+                            </div>
+                            <p class="capability_main_text">MRI/CT</p>
+                            <p class="capabiliti_subtext fs-regular">Studies of different modalities obtained on the
+                                devices of all
+                                the world's largest manufacturers</p>
+                        </div>
+                        <div class="capabilities__card">
+                            <div class="capability_illustration">
+                                <img src="images/scientistsvg.svg" alt="">
+                            </div>
+                            <p class="capability_main_text">>130.000 studies</p>
+                            <p class="capabiliti_subtext fs-regular">Was processed byAI Diagnostic services at the
+                                request of
+                                customers</p>
+                        </div>
+                        <div class="capabilities__card">
+                            <div class="capability_illustration">
+                                <img src="images/mrt.svg" alt="">
+                            </div>
+                            <p class="capability_main_text">>40 CT/MRI machines</p>
+                            <p class="capabiliti_subtext fs-regular">Connected to AI Diagnostic services simultaneously
+                            </p>
+                        </div>
+                        <div class="capabilities__card">
+                            <div class="capability_illustration">
+                                <img src="images/cube.svg" alt="">
+                            </div>
+                            <p class="capability_main_text">6 new services</p>
+                            <p class="capabiliti_subtext fs-regular">Are in development right now</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="scenarious__block">
+                <p class="separation__main__text scenarious_head">Usage Scenarios</p>
+                <div class="scenarious__container">
+                    <details class="scenarios__item">
+                        <summary class="scenarios__header">
+                            <p>Faster work of radiologists, higher diagnostic accuracy</p>
+                            <div class="plus__circle">
+                                <svg width="22" height="23" viewBox="0 0 22 23" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="plus_svg"
+                                        d="M8.71829 22.5019V13.2966H0V9.20534H8.71829V0H12.9557V9.20534H21.674V13.2966H12.9557V22.5019H8.71829Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </summary>
+                        <div class="scenarios__content fs-regular">For medical institutions willing to optimize workload of their radiologists and minimize human error risk</div>
+                    </details>
+                    <details class="scenarios__item">
+                        <summary class="scenarios__header">
+                            <p>Prospective screening</p>
+                            <div class="plus__circle">
+                                <svg width="22" height="23" viewBox="0 0 22 23" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="plus_svg"
+                                        d="M8.71829 22.5019V13.2966H0V9.20534H8.71829V0H12.9557V9.20534H21.674V13.2966H12.9557V22.5019H8.71829Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </summary>
+                        <div class="scenarios__content fs-regular">Population-based screening for a specific pathology that without application of the service would cause multiple workload increase for radiologists</div>
+                    </details>
+                    <details class="scenarios__item">
+                        <summary class="scenarios__header">
+                            <p>Speeding-up and simplification of diagnostic process</p>
+                            <div class="plus__circle">
+                                <svg width="22" height="23" viewBox="0 0 22 23" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="plus_svg"
+                                        d="M8.71829 22.5019V13.2966H0V9.20534H8.71829V0H12.9557V9.20534H21.674V13.2966H12.9557V22.5019H8.71829Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </summary>
+                        <div class="scenarios__content fs-regular">Results of the automatic study processing may be submitted directly to clinicians, bypassing radiologists</div>
+                    </details>
+                    <details class="scenarios__item">
+                        <summary class="scenarios__header">
+                            <p>Retrospective screening</p>
+                            <div class="plus__circle">
+                                <svg width="22" height="23" viewBox="0 0 22 23" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="plus_svg"
+                                        d="M8.71829 22.5019V13.2966H0V9.20534H8.71829V0H12.9557V9.20534H21.674V13.2966H12.9557V22.5019H8.71829Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </summary>
+                        <div class="scenarios__content fs-regular">Automated detection of pathologies within the available database of patients who previously underwent examinations related to other diseases</div>
+                    </details>                   
+                </div>
+            </div>
+            <div class="separation__block" id="team">
+                <div class="separation__heading">Team</div>
+                <p class="separation__main__text"> Our team <span class="mask_consist_of_professionals">consists of
+                        professionals</span> <br> the field of Ai and medicine</p>
+            </div>
+            <div class="team__container">
+                <div class="team__switcher">
+                    <button class="switcher switcher__active">Developers</button>
+                    <button class="switcher">Medical experts</button>
+                </div>
+                <div class="team__cards">
+                    <div class="team__card">
+                        <div class="team__image">
+
+                        </div>
+                        <p class="team_main_text">Кирилл Лопатин</p>
+                        <p class="team__subtext fs-regular">Connected to AI Diagnostic services simultaneously</p>
+                    </div>
+                    <div class="team__card">
+                        <div class="team__image">
+
+                        </div>
+                        <p class="team_main_text">Кирилл Лопатин</p>
+                        <p class="team__subtext fs-regular">Connected to AI Diagnostic services simultaneously</p>
+                    </div>
+                    <div class="team__card">
+                        <div class="team__image">
+
+                        </div>
+                        <p class="team_main_text">Кирилл Лопатин</p>
+                        <p class="team__subtext fs-regular">Connected to AI Diagnostic services simultaneously</p>
+                    </div>
+                    <div class="team__card">
+                        <div class="team__image">
+
+                        </div>
+                        <p class="team_main_text">Кирилл Лопатин</p>
+                        <p class="team__subtext fs-regular">Connected to AI Diagnostic services simultaneously</p>
+                    </div>
+                </div>
+                <div class="team__cards team__cards__hidden">
+                    <div class="team__card">
+                        <div class="team__image">
+
+                        </div>
+                        <p class="team_main_text">НЕ Кирилл Лопатин</p>
+                        <p class="team__subtext fs-regular">Connected to AI Diagnostic services simultaneously</p>
+                    </div>
+                    <div class="team__card">
+                        <div class="team__image">
+
+                        </div>
+                        <p class="team_main_text">НЕ Кирилл Лопатин</p>
+                        <p class="team__subtext fs-regular">Connected to AI Diagnostic services simultaneously</p>
+                    </div>
+                    <div class="team__card">
+                        <div class="team__image">
+
+                        </div>
+                        <p class="team_main_text">НЕ Кирилл Лопатин</p>
+                        <p class="team__subtext fs-regular">Connected to AI Diagnostic services simultaneously</p>
+                    </div>
+                    <div class="team__card">
+                        <div class="team__image">
+
+                        </div>
+                        <p class="team_main_text">НЕКирилл Лопатин</p>
+                        <p class="team__subtext fs-regular">Connected to AI Diagnostic services simultaneously</p>
+                    </div>
+                </div>
+            </div>
+            <div class="separation__block" id="contacts">
+                <div class="separation__heading">Contact us</div>
+                <p class="separation__main__text"> We are looking for partners <br>who <span
+                        class="mask_believe_in_ai">believe in AI as much as we do</span></p>
+            </div>
+            <div class="form__container">
+                <div class="contacts">
+                    <div>
+                        <p class="contacts__header">Contact Information</p>
+                        <p class="contacts__description fs-regular">It is difficult for a doctor to calculate the volume
+                            <br>of the
+                            lesion. Service is a computer, it's easy for him</p>
+
+                    </div>
+                    <ul class="contacts__list">
+                        <li class="contacts__item fs-regular"><img src="images/mail.svg" alt=""> admin@ai-diagnostic.com
+                        </li>
+                        <li class="contacts__item fs-regular"><img src="images/phone.svg" alt=""> +7 903 733-55-11,
+                            Александр (СЕО)
+                        </li>
+                        <li class="contacts__item fs-regular"><img src="images/geo.svg" alt=""> Armenia,
+                            Yerevan,Nikoghayos adonts
+                            <br>6/1, office 79</li>
+                    </ul>
+                    <div>
+                        <p class="contacts__footer">Need presentation?</p>
+                        <p class="contacts__description  fs-regular">You like what we do, but you need to demonstrate </p>
+                        <a href="" class="download__link"><img src="images/download.svg">AIDiagnisticPresentation.pdf (15.4
+                            Mb)</a>
+
+                    </div>
+
+                </div>
+                <div class="form__block">
+                    <form action="" class="form">
+                        <p class="form__header">Fill the form</p>
+                        <p class="form__description fs-regular">To get demo access to existing products or become an
+                            investor in
+                            new ones</p>
+                        <div class="form__inputs">
+                            <div class="flexcont">
+                                <div class="form__group">
+                                    <input type="text" id="name" class="form__field" placeholder=" " onkeydown="return /[a-z]/i.test(event.key)">
+                                    <label for="name" class="form__label">Name</label>
+                                </div>
+                                <div class="form__group">
+                                    <!-- <select class="form__country__selector" name="country" id="country">
+                                        
+
+                                    </select> -->
+                                    <input id="phone" class="form__field" >
+                                    <label for="phone" class="form__label">Phone number</label>
+                                </div>
+                            </div>
+                            <div class="flexcont">
+                                <div class="form__group">
+                                    <!-- <input type="" id="list" class="form__field" placeholder="Your Email"> -->
+                                    <select class="form__field" id="list" >asdfasdf
+                                    </select>
+                                    <label for="list" class="form__label">What are you interested in?</label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" id="email" class="form__field" >
+                                    <label for="email" class="form__label">Email</label>
+                                </div>
+                            </div>
+
+
+
+                            <div class="form__group">
+                                <textarea id="message" class="form__field"  rows="2"></textarea>
+                                <label for="message" class="form__label__big">Write your message</label>
+                            </div>
+
+                        </div>
+                        <button class="form__button">Send message</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
